@@ -1,6 +1,6 @@
 import sys
 
-
+#dp 
 
 def naive(arr : [int]) -> int:
 	"""
