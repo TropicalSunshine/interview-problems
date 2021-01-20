@@ -18,6 +18,7 @@ def naive(arr : [int]) -> int:
 			result = max(s, result)
 	return result
 
+#test case from leetcode
 assert naive([-2, 1, -3, 4, -1, 2, 1, -5, 4]) == 6
 
 def maxSubarray(arr: [int]) -> int:
@@ -41,5 +42,5 @@ def maxSubarray(arr: [int]) -> int:
 	
 	return result
 
-
+#test case from leetcode
 assert maxSubarray([-2, 1, -3, 4, -1, 2, 1, -5, 4]) == 6
